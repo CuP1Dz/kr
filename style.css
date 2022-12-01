@@ -1,0 +1,131 @@
+.logo {
+    padding: 60px 0 10px 30px;
+    font: 70px Trebuchet MS;
+    color: #FFF;
+    text-decoration: none;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transform: translate(-400px);
+}
+body {
+    background-color: rgb(165, 117, 71);
+    display: block;
+    margin: 8px;
+    font: 16px Arial;
+}
+* {
+    box-sizing: border-box;
+}
+h1{
+    color:  rgb(165, 117, 71);
+}
+.container{
+    background-color: #FFF;
+}
+.wrapper {
+    width: 60%;
+    margin: 30px auto;
+    background-color: white;
+    min-width: 930px;
+}
+div {
+    display: block;
+}
+nav {
+    display: flex;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 17px;
+    font-size: 12px;
+    width: 20%;
+    height: 50px;
+}
+.wrapper img {
+    display: flex;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container a{
+    color: forestgreen;
+}
+.active{
+    background-color: rgba(7, 32, 46, 0.89);
+    font-size: 20px;
+}
+nav a {
+    font: 20px Arial;
+}
+header {
+    height: 90px;
+}
+main {
+    margin-left: 40px;
+    width: 100%;
+    padding: 20px;
+}
+aside {
+    display: block;
+}
+.right {
+    width: 35%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.wrapper1 {
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgb(238, 236, 233);
+    padding-left: 15px;
+    padding-top: 1px;
+    padding-bottom: 15px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.li {
+    border-bottom: 1px solid rgba(0, 0, 0,0.075);
+    width: 113%;
+    list-style-type: none;
+    transform: translate(-30px);
+    padding-top: 15px;
+    font-weight: bold;
+}
+.wrapper2 {
+    width: 97%;
+    margin: 30px auto;
+    background-color: white;
+}
+footer {
+    padding: 30px 0px;
+    text-align: center;
+}
+.black {
+    font: 17px Trebuchet MS;
+    text-align: center;
+    background: #fff;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(195, 219, 188);
+}
